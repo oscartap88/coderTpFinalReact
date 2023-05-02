@@ -10,7 +10,7 @@ const Preparaciones = ({usuario}) => {
   <div>
     <h2>Elegi la receta que mas te guste y compartila!</h2>
     {usuario.map((user) =>{
-      return <h3>Nombre del trago e Instrucciones: {user.strDrink} {user.strInstructionsES}</h3>
+      return <h3>Nombre del trago e Instrucciones: {user.strDrink} / {user.strInstructionsES}</h3>
       
       
     })}
